@@ -45,7 +45,6 @@ sprint:
 ; void sprintLF(String message)
 ; String printing with line feed function
 sprintLF:
-    call    sprint
 
     push    eax         ; push eax onto the stack to preserve it while we use the eax register in this function
     mov     eax, 0Ah    ; move 0AH into eax - 0AH is the ascii character for a linefeed
